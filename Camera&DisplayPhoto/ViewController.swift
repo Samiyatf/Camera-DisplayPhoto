@@ -7,11 +7,23 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    
+var imagePicker = UIImagePickerController()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        imagePicker.delegate = self
+  
+        func takeSelfieTapped (_ sender: UIButton) {
+            imagePicker.sourceType = .camera
+            present(imagePicker, animated : true, completion: nil)
+        }
+        
+        
+        
+        
+        
     }
 
 

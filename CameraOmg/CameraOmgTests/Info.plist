@@ -12,10 +12,10 @@
 	<string>6.0</string>
 	<key>CFBundleName</key>
 	<string>$(PRODUCT_NAME)</string>
-	<key>NSCameraUsageDescription</key>
-	<string>Hey bestie, lemme use ur camera really quick! Trust me</string>
 	<key>NSAppleMusicUsageDescription</key>
-	<string>Hey bestie, lemme access ur camera roll really quick! Trust me</string>
+	<string>Bestie lemme see ur camera roll, u can trust me &gt;:(</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Bestie lemme use ur camera, u can trust me</string>
 	<key>CFBundlePackageType</key>
 	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
 	<key>CFBundleShortVersionString</key>
